@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     GreetingText(
                         message = "Android",
-                        from = "from Rosa",
+                        from = "from Emma",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -95,7 +95,7 @@ fun BirthdayCardPreview() {
         modifier = Modifier.fillMaxSize()
     ){
     HappyBirthdayTheme {
-        GreetingImage(message = "Happy birthday Souley!",from="From Rosa")
+        GreetingImage(message = "Happy birthday Sam!",from="From Ema")
     }
     }
 }
