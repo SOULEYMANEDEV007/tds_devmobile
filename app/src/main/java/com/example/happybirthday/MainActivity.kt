@@ -95,7 +95,7 @@ fun BirthdayCardPreview() {
         modifier = Modifier.fillMaxSize()
     ){
     HappyBirthdayTheme {
-        GreetingImage(message = "Happy birthday Sam!",from="From Ema")
+        GreetingImage(message = "Happy birthday Sam!",from="From Emma")
     }
     }
 }
